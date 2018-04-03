@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<#include "head.html">
+#parse("")
+haha  ${value1} <br/>
+
+<#list 1..2 as i>
+<#list 1..3 as j>
+i = ${i}, j = ${j}
+</#list>
+</#list>
+<br/>
+<#list colors as color> 
+color = ${color}
+</#list>
+
+${user.getName()}
+<br/>
+${headers}
+</body>
+</html>
