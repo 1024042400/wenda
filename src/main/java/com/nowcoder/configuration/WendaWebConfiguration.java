@@ -15,6 +15,7 @@ public class WendaWebConfiguration extends WebMvcConfigurerAdapter {
 
     @Autowired
     LoginRequiredInerceptor loginRequiredInerceptor;
+
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(passportInterceptor);

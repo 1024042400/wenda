@@ -22,6 +22,7 @@ public class PassportInterceptor implements HandlerInterceptor {
 
     @Autowired
     UserDAO userDAO;
+
     @Autowired
     HostHolder hostHolder;
 
