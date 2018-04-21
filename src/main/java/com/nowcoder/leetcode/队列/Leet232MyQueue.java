@@ -1,4 +1,4 @@
-package com.nowcoder.leetcode;
+package com.nowcoder.leetcode.队列;
 
 import java.util.Stack;
 

@@ -1,4 +1,4 @@
-package com.nowcoder.leetcode;
+package com.nowcoder.leetcode.栈;
 
 import java.util.ArrayList;
 import java.util.List;
