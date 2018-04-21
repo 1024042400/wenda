@@ -1,4 +1,4 @@
-package com.nowcoder.leetcode;
+package com.nowcoder.leetcode.链表;
 
 /**
  * 给一个链表，返回链表开始入环的第一个节点。 如果链表无环，则返回 null。

@@ -1,4 +1,4 @@
-package com.nowcoder.leetcode;
+package com.nowcoder.leetcode.链表;
 
 /**
  *

@@ -14,6 +14,6 @@ public class FollowController {
     @RequestMapping(value = "/followUser",method = RequestMethod.GET)
     @ResponseBody
     public String follow(@RequestParam("userId") int userId) {
-
+        return "";
     }
 }
